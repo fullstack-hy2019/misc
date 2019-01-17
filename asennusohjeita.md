@@ -4,6 +4,27 @@ Tähän dokumenttiin on koottu muutamia Noden asennusohjeita.
 
 **HUOM:** riippumatta siitä miten asennat nyt Noden, **älä asenna kurssin aikana npm:llä mitään "globaalisti"**, eli komennolla _npm install -g_, (käyttäen tarkenninta g) sille ei ole tarvetta ja koulun koneilla et sitä edes pysty tekemään.
 
+
+### TÄLLÄ HETKELLÄ (17.1. klo 1440) laitoksen Node-asennuksessa on ongelma
+
+Laitoksen koneilta (ja fuksiläppäreiltä) puuttuu _npm_. Sen pitäisi asentua to ja pe välisenä yönä.
+
+Jos haluat aloittaa fuksiläppärillä jo nyt, niin seuraa copypastea telegramista:
+
+tämän vuoden koneisiin saa sudot komennolla
+
+```
+i-want-sudo-access
+```
+
+muistaakseni se oli, tuo, korjatkaa joku jos se oli jotain muuta.
+
+tästä mulla oli henkkoht kokemus kun käytin npm:ää, se ehdotti että 'aja tämä komento että saat npm:n päivitettyä' - luotin ja ajoin, komento poisti vanhan npm:n muttei asentanut uutta.
+
+tämän jälkeen nodea ei saanut asennettua uusiks kun se oli jo, ja npmää ei saanut ilman nodea - <i>lopulta noden poisto ja uusiks asennus auttoi</i
+
+
+
 ### Laitoksen koneet ja fuksiläppärit
 
 Laitoksen koneilla ja vuoden 2016 tai sitä uudemmissa fuksiläppäreissä pitäisi olla nyt Noden versio 8.9.4. joka on kurssin suoritusta varten riittävä. Koneilla on myös Visual studio code -editori. Mitään ei siis tarvitse asentaa.
