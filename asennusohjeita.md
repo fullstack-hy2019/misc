@@ -21,7 +21,7 @@ muistaakseni se oli, tuo, korjatkaa joku jos se oli jotain muuta.
 
 tästä mulla oli henkkoht kokemus kun käytin npm:ää, se ehdotti että 'aja tämä komento että saat npm:n päivitettyä' - luotin ja ajoin, komento poisti vanhan npm:n muttei asentanut uutta.
 
-tämän jälkeen nodea ei saanut asennettua uusiks kun se oli jo, ja npmää ei saanut ilman nodea - <i>lopulta noden poisto ja uusiks asennus auttoi</i
+tämän jälkeen nodea ei saanut asennettua uusiks kun se oli jo, ja npmää ei saanut ilman nodea - <i>lopulta noden poisto ja uusiks asennus auttoi</i>
 
 
 
