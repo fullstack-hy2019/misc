@@ -13,9 +13,8 @@ const authors = [
     name: 'Fyodor Dostoevsky',
     born: 1821
   },
-  {
-    name: 'Joshua Kerievsky',
-    born: 1821
+  { 
+    name: 'Joshua Kerievsky' // birthyear not known
   },
 ]
 
