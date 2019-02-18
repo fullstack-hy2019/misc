@@ -16,6 +16,9 @@ const authors = [
   { 
     name: 'Joshua Kerievsky' // birthyear not known
   },
+  { 
+    name: 'Sandi Metz' // birthyear not known
+  },
 ]
 
 const books = [
@@ -29,7 +32,7 @@ const books = [
     title: 'Agile software development',
     published: 2002,
     author: 'Robert Martin',
-    genres: ['agile', 'patterns']
+    genres: ['agile', 'patterns', 'design']
   },
   {
     title: 'Refactoring, edition 2',
@@ -38,11 +41,17 @@ const books = [
     genres: ['refactoring']
   },
   {
-    title: 'Refactoring to patternis',
-    published: 1968,
+    title: 'Refactoring to patterns',
+    published: 2008,
     author: 'Joshua Kerievsky',
     genres: ['refactoring', 'patterns']
   },  
+  {
+    title: 'Practical Object-Oriented Design, An Agile Primer Using Ruby',
+    published: 2012,
+    author: 'Sandi Metz',
+    genres: ['refactoring', 'design']
+  },
   {
     title: 'Crime and punishment',
     published: 1866,
