@@ -21,37 +21,37 @@ const authors = [
 
 const books = [
   {
-    name: 'Clean Code',
+    title: 'Clean Code',
     published: 2008,
     author: 'Robert Martin',
     genres: ['refactoring']
   },
   {
-    name: 'Agile software development',
+    title: 'Agile software development',
     published: 2002,
     author: 'Robert Martin',
     genres: ['agile', 'patterns']
   },
   {
-    name: 'Refactoring, edition 2',
+    title: 'Refactoring, edition 2',
     published: 2018,
     author: 'Martin Fowler',
     genres: ['refactoring']
   },
   {
-    name: 'Refactoring to patternis',
+    title: 'Refactoring to patternis',
     published: 1968,
     author: 'Joshua Kerievsky',
     genres: ['refactoring', 'patterns']
   },  
   {
-    name: 'Crime and punishment',
+    title: 'Crime and punishment',
     published: 1866,
     author: 'Fyodor Dostoevsky',
     genres: ['classic', 'crime']
   },
   {
-    name: 'The Demon ',
+    title: 'The Demon ',
     published: 1872,
     author: 'Fyodor Dostoevsky',
     genres: ['classic', 'revolution']
