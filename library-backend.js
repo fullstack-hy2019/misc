@@ -26,6 +26,11 @@ const authors = [
   },
 ]
 
+/*
+ * Saattaisi olla järkevämpää assosioida kirja ja sen tekijä tallettamalla kirjan yhteyteen tekijän nimen sijaan tekijän id
+ * Yksinkertaisuuden vuoksi tallennamme kuitenkin kirjan yhteyteen tekijän nimen
+*/
+
 const books = [
   {
     title: 'Clean Code',
