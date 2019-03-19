@@ -91,19 +91,42 @@ const Component = () => {
 Tilaa muuttavan funktion kutsu saa aikaan komponentin uudelleenrenderöinin.
 
 ### 5. Kerro miten ns. effect hook eli funktio useEffect toimii. Mihin effect hookeja tarvitaan?
+
+funktion _useEffect_ avulla voidaan rekisteröidä funktioita jotka suoritetaan oletusarvoisesti sovelluksen jokaisen renderöinnin yhteydessä. 
+
+Oletetaan että meillä on seuraava koodi:
+
 ```js 
 const Component = () => {
   const [x, setX] = useState(0)
+  const [y, setY] = useState(0)
+  
   useEffect(() => {
-    console.log('')
-  }, [])
+    console.log('hello', x, y)
+  })
 
   return (
     <div>
-      vat
+      x: {x} y: {y}
+      <button onClick={()=>setX(x + 1)}>X</button>
+      <button onClick={()=>setY(y + 1)}>Y</button>
     </div>
   )
 }
+```
+
+Kun sovellus renderäidään ensimmäistä kertaa, tulostuu _hello 0 0_. Sen jälkeen jokainen näppäimen painallus aiheuttaa uuden renderöinnin ja efektifunktion suorittamisen.
+
+```js 
+useEffect(() => {
+  console.log('hello', x, y)
+}, [])
+```
+
+```js 
+useEffect(() => {
+  console.log('hello', x, y)
+}, [])
 ```
 
 ### 6. Javascriptilla ohjelmoidessa käytetään usein asynkronisia funktioita. Kerro mistä on kyse ja miten asynkroonisuus useimmiten hoidetaan.
