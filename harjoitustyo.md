@@ -28,7 +28,7 @@ Jos kyseessä on pari- tai ryhmätyö, kerro muiden tekijöiden nimet palautukse
 
 GitHub-repositoriosi README.md-tiedostossa tulee olla linkki osoitteeseen, missä sovellus on käynnissä. Jos teet mobiilisovelluksen, sovitaan sovelluksen demoamisesta tapauskohtaisesti.
 
-README:stä täytyy myös löytyä linkki sovelluksen käyttöohjeisiin sekä työaikakirjanpitoon. Sopiva tarkkuustaso työaikakirjanpidolle on tämä. Työaikakirjanpidosta on myös selvittävä työtuntien yhteenlaskettu määrä.
+README:stä täytyy myös löytyä linkki sovelluksen käyttöohjeisiin sekä työaikakirjanpitoon. Sopiva tarkkuustaso työaikakirjanpidolle on [tämä](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/tuntikirjanpito.md). Työaikakirjanpidosta **on myös selvittävä työtuntien yhteenlaskettu määrä**.
 
 Työaikakirjanpidon ja repositorion commit-historian tulee vastata toisiaan kohtuullisessa määrin. Tee siis välicommiteja!
 
