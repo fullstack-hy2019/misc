@@ -5,13 +5,13 @@
 <pre>
   Ilmoittautuneita: 192
   Osallistuneita:   173
-  Hyväksyttyjä:     115 ( 66% osallistuneista )	   
+  Hyväksyttyjä:     115 (66% osallistuneista)	   
   Hylättyjä:        58
 </pre>
 
 <pre>
 Arvosanajakauma
-   5 : 67  ************************************************************...
+   5 : 67  ******************************************************************* 
    4 : 17  *****************
    3 : 11  ***********
    2 : 12  ************
