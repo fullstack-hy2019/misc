@@ -42,4 +42,4 @@ Kevään harjoitustyöt tulee palauttaa 31.5. klo 23:59 mennessä.
 
 Toukokuun alussa alkaa uusi versio harjoitustyöstä avoimen yliopiston puolella. Avoimen harjoitustyön deadline on vasta 14.3.2020
 
-Voit laajentaa keväällä aloittamaasi työtä toikokuussa alkavassa harjoitustyössä.
+Voit laajentaa keväällä aloittamaasi työtä toukokuussa alkavassa harjoitustyössä.
