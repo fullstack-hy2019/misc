@@ -180,7 +180,7 @@ Komentoa await ei voi käyttää missä vaan, koodin on oltava _async_-funktioss
 
 ```js 
 const main = async () => {
-  const { data } = await axios.get('https://dataa.taalta.fi/)
+  const { data } = await axios.get('https://dataa.taalta.fi/')
   console.log('palvelin vastasi', data)
 }
 
@@ -201,6 +201,17 @@ app.post('/books', (request, response) => {
 
 ### 8. Expressin yhteydessä puhutaan usein middlewareista. Kerro mitä ne ovat ja mihin niitä käytetään
 
-```js 
-```
+Jos sovelluksessa on jotain koodia, joka tulisi suorittaa ennen _kaikkia_ tai useampaa reittien käsittelijäfunktiota, on niille oikea paikka middleware. 
 
+Middleware pääsee käsiksi pyynnön request- ja response-olioihin. Middleware voi esim. pysäyttää pyynnön ja vastata siihen  statuskoodilla 401 jos pyynnön tehneellä käyttäjällä ei ole oikeuksia järjestelmään. Pyynnön tehneen käyttäjän middleware voi tarkistaa request-olion mukana olevasta headerista. Middleware saa myös kolmannen parametrin _next_ jonka avulla se siirtää käsittelyn eteenpäin.
+
+Middleware näyttää seuraavalta:
+
+```js 
+const middle = (request, response, next) => {
+  // täällä voi tehdä mitä vaan olioilla request ja response
+  next()
+}
+
+app.use(middle)
+```
