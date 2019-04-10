@@ -18,7 +18,7 @@ Full Stack -kurssin Telegram-kanava https://t.me/fullstackcourse toimii myös ha
 
 Tee sovellukselle repositorio ja kerro siitä mailitse matti.luukkainen@helsinki.fi
 
-Muista myös ilmoittautua kurssille WebOodissa!
+Muista myös ilmoittautua kurssille WebOodissa tai [avoimen yliopiston sivuilla](https://courses.helsinki.fi/en/aytkt21010/129098202) jos ei ole HY:n opiskelija tai aloita 1.5. jälkeen.
 
 Tee README.md:hen lyhyt kuvaus sovelluksesta.
 
