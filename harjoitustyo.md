@@ -38,10 +38,10 @@ Ilman työaikakirjanpitoa kurssin maksimiopintopistemäärä on 1 op.
 
 ## Työn valmistuminen ja arvostelu
 
-Kun työsi on valmis arvosteltavaksi, lähetä email osoitteeseen mluukkai@cs.helsinki.fi.
+Kun työsi on valmis arvosteltavaksi, lähetä email osoitteeseen matti.luukkainen@helsinki.fi
 
 Kevään harjoitustyöt tulee palauttaa 31.5. klo 23:59 mennessä.
 
-Toukokuun alussa alkaa uusi versio harjoitustyöstä avoimen yliopiston puolella. Avoimen harjoitustyön deadline on vasta 14.3.2020
+Toukokuun alussa alkaa uusi versio harjoitustyöstä [avoimen yliopiston](https://courses.helsinki.fi/en/aytkt21010/129098202) puolella. Avoimen harjoitustyön deadline on vasta 14.3.2020
 
 Voit laajentaa keväällä aloittamaasi työtä toukokuussa alkavassa harjoitustyössä.
